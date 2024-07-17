@@ -29,9 +29,20 @@ const Section2 = () => {
   return (
     <>
     <div className="sectionContainer2">
-      
-      
-    </div>
+  <div className="sectionSubheading">
+    <h2 className="h2Hero">The latest from Ableton</h2>
+    <ul className="subNavLinks">
+      <li>All posts</li>
+      <li>Artists</li>
+      <li>News</li>
+      <li>Downloads</li>
+      <li>Tutorials</li>
+      <li>Videos</li>
+      <li>Loop</li>
+    </ul>
+  </div>
+</div>
+
     </>
   )
 }
