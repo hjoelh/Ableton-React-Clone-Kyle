@@ -1,0 +1,33 @@
+.sectionContainer1{
+  background-image: url("../assets/AbletonHeroImage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 8.33333vw;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+
+.h1Hero{
+font-family: "futura";
+font-weight: 200;
+color: #FDF900;
+font-size: 4rem;
+;
+}
+
+.section1p{
+  color: #FDF900;
+  font-size: 1.6rem;
+  font-weight: 100;
+  text-align: left;
+  text-decoration: underline;
+
+}
+
+
