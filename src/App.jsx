@@ -1,14 +1,21 @@
 import React from 'react';
 import { useState } from 'react'
-import Footer from './components/footer.jsx';
 import Navbar from './components/Navbar.jsx';
-import Hero from './components/hero.jsx';
+import Footer from './components/Footer.jsx';
+import Hero from './components/Hero.jsx';
+import "./App.css"
+
+
+
+
 
 
 function App() {
   return (
       <div className="App">
-          <Navbar />
+          <Navbar className="futara" />
+          <Hero />
+          <Footer />
           
       </div>
   );

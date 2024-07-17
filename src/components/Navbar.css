@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: sans-serif
+  font-family: "futura";
 }
 
 .navbar {
@@ -21,14 +21,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0;
 }
 
 .logo img {
-  height: 30px;
+  height: 25px;
   margin-right: 0;
-  padding-right: 0;
+  padding-right: 00px;
+  
 }
 
 .nav-links {
@@ -38,14 +39,14 @@ body {
 }
 
 .nav-links li {
-  margin-left: 30px;
+  margin-left: 25px;
   position: relative;
 }
 
 .nav-links a {
   text-decoration: none;
   color: #333;
-  font-size: 16px;
+  font-size: 1.2rem;
   transition: color 0.3s;
 }
 
@@ -56,16 +57,17 @@ body {
 .nav-buttons a {
   text-decoration: none;
   color: #333;
-  
   padding: 10px 15px;
   margin-left: 0px;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1rem;
   transition: background-color 0.3s;
+  align-items: flex-end;
 }
 
 .nav-buttons .try-btn {
   color: #0000FF;
+  
 }
 
 .nav-buttons .try-btn:hover,
