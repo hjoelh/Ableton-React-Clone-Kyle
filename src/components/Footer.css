@@ -67,6 +67,7 @@
 
 .footer-section ul li a:hover {
   text-decoration: underline;
+  color: #ff8f1f;
 }
 
 .footer-section form {
@@ -143,6 +144,7 @@
 
 .footer-bottom div a:hover {
   text-decoration: underline;
+  color: #ff8f1f;
 }
 
 .footer-made-in {
@@ -150,4 +152,8 @@
   margin-top: 20px;
   font-family: "futura";
   font-size: 0.8rem;
+}
+
+.left-section {
+  padding-top: 40px;
 }

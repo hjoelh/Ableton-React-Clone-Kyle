@@ -10,7 +10,7 @@ const Footer = () => {
           
         </div>
         <div className="footer-sections-container">
-          <div className="footer-section">
+          <div className="footer-section left-section">
           <ul>
             <li><a href="#">Register Live or Push</a></li>
             <li><a href="#">About Ableton</a></li>
@@ -36,13 +36,26 @@ const Footer = () => {
                 <li>
                   <select>
                     <option>English</option>
-                    {/* Add more languages as needed */}
+                    <option>Duetsch</option>
+                    <option>Français</option>
+                    <option>Español</option>
+                    <option>中国人</option>
+                    <option>日本語</option>
                   </select>
                 </li>
                 <li>
                   <select>
                     <option>United Kingdom</option>
-                    {/* Add more locations as needed */}
+                    <option>United States</option>
+                    <option>Australia</option>
+                    <option>Deutschland</option>
+                    <option>La France</option>
+                    <option>España</option>
+                    <option>中国</option>
+                    <option>日本</option>
+                    <option>Other</option>
+
+
                   </select>
                 </li>
               </ul>
