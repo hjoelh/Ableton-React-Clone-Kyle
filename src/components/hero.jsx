@@ -22,6 +22,7 @@ const Hero = () => {
     <Section3 />
     <Section4 />
     <Section5 />
+    <Section6 />
     </>
     
     
@@ -193,6 +194,27 @@ const Section5 = () => {
   </div>
 </div>
 
+    </>
+  )
+}
+
+
+const Section6 = () => {
+  return (
+    <>
+    <div class="footerDivider">
+      <ul class="subNavLinks2">
+        <li className="more">More: </li>
+        <li>All posts</li>
+        <li>Artists</li>
+        <li>News</li>
+        <li>Downloads</li>
+        <li>Tutorials</li>
+        <li>Videos</li>
+        <li>Loop</li>
+        <li>One Thing</li>
+      </ul>
+    </div>
     </>
   )
 }

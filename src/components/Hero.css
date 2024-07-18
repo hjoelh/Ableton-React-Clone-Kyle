@@ -1,3 +1,5 @@
+/* MAIN HERO SECTION 1 */
+
 .sectionContainer1 {
   background-image: url("../assets/AbletonHeroImage.jpg");
   background-position: center;
@@ -28,6 +30,8 @@ padding-top: 5px;
   text-decoration: underline;
 
 }
+
+/* CARDS SECTIONS 2-5*/
 
 
 .sectionContainer2 {
@@ -124,4 +128,48 @@ padding-top: 5px;
   font-family: "futura";
   color: #000;
   font-size: 1rem;
+}
+
+/* DIVIDER */
+
+.footerDivider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Centering text vertically */
+  background-color: #EEEEEE;
+  height: 150px;
+  width: 100%;
+  padding-left: 8.33333vw;
+  padding-right: 8.33333vw;
+  padding-bottom: 4.16667vw;
+  position: relative;
+}
+
+.subNavLinks2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 75px;
+  display: flex;
+  justify-content: center; /* Centering text horizontally */
+}
+
+.subNavLinks2 li {
+  text-decoration: none;
+  color: #0000FF;
+  font-size: 1.3rem;
+  transition: color 0.3s;
+  white-space: nowrap;
+  margin-left: 20px;
+}
+
+.subNavLinks2 li:first-child {
+  color: #000;
+  padding-right: 10px;
+}
+
+.subNavLinks2 li:not(:first-child):hover {
+  color: #ff8f1f;
+  transition: color 0.3s;
 }
