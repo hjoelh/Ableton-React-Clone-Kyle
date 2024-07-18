@@ -20,6 +20,8 @@ const Hero = () => {
     <Section1 />
     <Section2 />
     <Section3 />
+    <Section4 />
+    <Section5 />
     </>
     
     
@@ -120,5 +122,80 @@ const Section3 = () => {
     </>
   )
 }
+
+const Section4 = () => {
+  return (
+    <>
+    <div class="sectionContainer2">
+  <div class="sectionSubheading">
+    <h2 class="h2Hero">Expand Live 12 with Packs</h2>
+    
+  </div>
+  <div class="imageContainer">
+    <div class="card">
+      <img src={Box3} alt="Image 1"></img>
+      <div class="cardText">
+        
+        <p class="title">Granulator III &gt;</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src={Box5} alt="Image 2"></img>
+      <div class="cardText">
+       
+        <p class="title">Trap Drums by Sound Oracle &gt;</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src={Box6} alt="Image 3"></img>
+      <div class="cardText">
+        
+        <p class="title">Lost & Found &gt;</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </>
+  )
+}
+
+const Section5 = () => {
+  return (
+    <>
+    <div class="sectionContainer2">
+  <div class="sectionSubheading">
+    <h2 class="h2Hero">Develop your music making</h2>
+    
+  </div>
+  <div class="imageContainer">
+    <div class="card">
+      <img src={Box7} alt="Image 1"></img>
+      <div class="cardText">
+        
+        <p class="title">Learn the foundations of music &gt;</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src={Box1} alt="Image 2"></img>
+      <div class="cardText">
+       
+        <p class="title">Get started with Live &gt;</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src={Box8} alt="Image 3"></img>
+      <div class="cardText">
+        
+        <p class="title">Experiment with tuning &gt;</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </>
+  )
+}
+
 
 export default Hero;
