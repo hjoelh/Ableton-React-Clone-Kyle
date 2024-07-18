@@ -32,10 +32,10 @@ padding-top: 5px;
 
 .sectionContainer2 {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   background-color: white;
-  height: 400px;
+  height: auto;
   width: 100%;
   padding-left: 8.33333vw;
   padding-right: 8.33333vw;
@@ -45,21 +45,24 @@ padding-top: 5px;
 
 .sectionSubheading {
   display: flex;
-  align-items: baseline; /* Align items with their baselines */
-  width: 100%; /* Ensure it takes full width */
-  justify-content: space-between; /* Space between h2 and ul */
+  align-items: baseline;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 50px; 
+  margin-bottom: 50px;
 }
 
 .sectionContainer2 h2 {
   margin: 0;
-  padding-right: 40px; /* Increase space between h2 and ul */
+  padding-right: 40px;
 }
 
 .subNavLinks {
   list-style-type: none;
-  margin: 0; 
-  padding: 0; 
-  display: flex; 
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .subNavLinks li {
@@ -67,8 +70,8 @@ padding-top: 5px;
   color: #0000FF;
   font-size: 1.4rem;
   transition: color 0.3s;
-  white-space: nowrap; /* Ensure text stays on one line */
-  margin-left: 20px; /* Add space between list items */
+  white-space: nowrap;
+  margin-left: 20px;
 }
 
 .subNavLinks li:hover {
@@ -81,5 +84,44 @@ padding-top: 5px;
   font-weight: 200;
   color: #000000;
   font-size: 2.2rem;
-  white-space: nowrap; /* Ensure text stays on one line */
+  white-space: nowrap;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: -10px; 
+}
+
+.card {
+  background-color: white;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.cardText {
+  padding: 15px;
+}
+
+.cardText .label {
+  display: inline-block;
+  background-color: #ff8389;
+  color: black;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  font-family: "futura";
+}
+
+.cardText .title {
+  font-family: "futura";
+  color: #000;
+  font-size: 1rem;
 }
