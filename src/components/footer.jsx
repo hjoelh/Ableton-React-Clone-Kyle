@@ -1,6 +1,7 @@
 import React from "react";
 import './Footer.css';
 
+
 const Footer = () => {
   return (
     <footer className="footer">
@@ -79,12 +80,14 @@ const Footer = () => {
           <a href="#">Cookie Settings</a>
           <a href="#">Imprint</a>
         </div>
-      </div>
-      <div className="footer-made-in">
+        <div className="footer-made-in">
         <p>Made in React.js by Atlis-Ky :D
           (please hire me I'm nice)
         </p>
+        <img src="src/assets/Ableton Icon.svg" alt="Ableton Logo" />
       </div>
+      </div>
+      
     </footer>
   );
 };

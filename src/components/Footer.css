@@ -21,21 +21,19 @@
 .ableton-section {
   padding-top: 50px;
   font-size: 3rem;
-
 }
 
 .ableton-section-h2 {
   font-family: "futura";
   font-size: 4rem; 
   font-weight: lighter;
-
 }
 
 .footer-sections-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-  margin-top: 20px; /* Add spacing between Ableton and other sections */
+  margin-top: 20px; 
 }
 
 .footer-sections-container .footer-section {
@@ -86,13 +84,12 @@
 }
 
 .footer-section form button {
-  padding: 15px 20px;
+  padding: 10px 25px;
   background-color: #0000ff;
   color: #fff;
   border: none;
   cursor: pointer;
   font-weight: lighter;
-  
 }
 
 .footer-section form button:hover {
@@ -101,6 +98,7 @@
 
 .language-location {
   margin-top: 20px;
+  
 }
 
 .language-location h2 {
@@ -108,11 +106,15 @@
   margin-bottom: 10px;
   font-family: inherit;
   font-weight: normal;
+  
 }
 
 .language-location ul {
   list-style-type: none;
-  padding: 0;
+  padding-top: 10px;
+  display: flex; 
+  gap: 5px; 
+  border: none;
 }
 
 .language-location ul li {
@@ -121,12 +123,15 @@
 
 .language-location select {
   padding: 5px;
+  padding-right: 60px;
   background-color: #EEEEEE;
+  border: none;
 }
 
 .footer-bottom {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   margin-top: 20px;
 }
@@ -149,9 +154,13 @@
 
 .footer-made-in {
   text-align: right;
-  margin-top: 20px;
+  margin-top: 5px;
   font-family: "futura";
   font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
 }
 
 .left-section {
