@@ -47,6 +47,8 @@ padding-top: 5px;
   position: relative;
 }
 
+
+
 .sectionSubheading {
   display: flex;
   align-items: baseline;
@@ -103,6 +105,10 @@ padding-top: 5px;
   width: 30%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+}
+
+.card:hover {
+  cursor: pointer;
 }
 
 .card img {
