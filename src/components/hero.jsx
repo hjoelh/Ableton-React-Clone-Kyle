@@ -44,10 +44,10 @@ const Section1 = () => {
 const Section2 = () => {
   return (
     <>
-    <div class="sectionContainer2">
-  <div class="sectionSubheading">
-    <h2 class="h2Hero">The latest from Ableton</h2>
-    <ul class="subNavLinks">
+    <div className="sectionContainer2">
+  <div className="sectionSubheading">
+    <h2 className="h2Hero">The latest from Ableton</h2>
+    <ul className="subNavLinks">
       <li>All posts</li>
       <li>Artists</li>
       <li>News</li>
@@ -57,26 +57,26 @@ const Section2 = () => {
       <li>Loop</li>
     </ul>
   </div>
-  <div class="imageContainer">
-    <div class="card">
+  <div className="imageContainer">
+    <div className="card">
       <img src={Box11} alt="Image 1"></img>
-      <div class="cardText">
-        <span class="label">Downloads</span>
-        <p class="title">Gesloten Cirkel: Free Tools and Tips for Spicing up Sounds</p>
+      <div className="cardText">
+        <span className="label">Downloads</span>
+        <p className="title">Gesloten Cirkel: Free Tools and Tips for Spicing up Sounds</p>
       </div>
     </div>
-    <div class="card">
+    <div className="card">
       <img src={Box12} alt="Image 2"></img>
-      <div class="cardText">
-        <span class="label">Podcasts</span>
-        <p class="title">Helado Negro on Sampling, Surroundings and Deep Listening</p>
+      <div className="cardText">
+        <span className="label">Podcasts</span>
+        <p className="title">Helado Negro on Sampling, Surroundings and Deep Listening</p>
       </div>
     </div>
-    <div class="card">
+    <div className="card">
       <img src={Box10} alt="Image 3"></img>
-      <div class="cardText">
-        <span class="label">Downloads</span>
-        <p class="title">Latent Sonorities: A Transcultural Musical Proposal</p>
+      <div className="cardText">
+        <span className="label">Downloads</span>
+        <p className="title">Latent Sonorities: A Transcultural Musical Proposal</p>
       </div>
     </div>
   </div>
@@ -90,31 +90,31 @@ const Section2 = () => {
 const Section3 = () => {
   return (
     <>
-    <div class="sectionContainer2">
-  <div class="sectionSubheading">
-    <h2 class="h2Hero">Learn more about Live 12</h2>
+    <div className="sectionContainer2">
+  <div className="sectionSubheading">
+    <h2 className="h2Hero">Learn more about Live 12</h2>
     
   </div>
-  <div class="imageContainer">
-    <div class="card">
+  <div className="imageContainer">
+    <div className="card">
       <img src={Box4} alt="Image 1"></img>
-      <div class="cardText">
+      <div className="cardText">
         
-        <p class="title">Get Tips and Tricks from Our Favourite Creators &gt;</p>
+        <p className="title">Get Tips and Tricks from Our Favourite Creators &gt;</p>
       </div>
     </div>
-    <div class="card">
+    <div className="card">
       <img src={Box9} alt="Image 2"></img>
-      <div class="cardText">
+      <div className="cardText">
        
-        <p class="title">Discover Meld: Live 12's New Bi-Timbral Synth &gt;</p>
+        <p className="title">Discover Meld: Live 12's New Bi-Timbral Synth &gt;</p>
       </div>
     </div>
-    <div class="card">
+    <div className="card">
       <img src={Box2} alt="Image 3"></img>
-      <div class="cardText">
+      <div className="cardText">
         
-        <p class="title">Watch the Learn Live 12 Videos &gt;</p>
+        <p className="title">Watch the Learn Live 12 Videos &gt;</p>
       </div>
     </div>
   </div>
@@ -127,31 +127,31 @@ const Section3 = () => {
 const Section4 = () => {
   return (
     <>
-    <div class="sectionContainer2">
-  <div class="sectionSubheading">
-    <h2 class="h2Hero">Expand Live 12 with Packs</h2>
+    <div className="sectionContainer2">
+  <div className="sectionSubheading">
+    <h2 className="h2Hero">Expand Live 12 with Packs</h2>
     
   </div>
-  <div class="imageContainer">
-    <div class="card">
+  <div className="imageContainer">
+    <div className="card">
       <img src={Box3} alt="Image 1"></img>
-      <div class="cardText">
+      <div className="cardText">
         
-        <p class="title">Granulator III &gt;</p>
+        <p className="title">Granulator III &gt;</p>
       </div>
     </div>
-    <div class="card">
+    <div className="card">
       <img src={Box5} alt="Image 2"></img>
-      <div class="cardText">
+      <div className="cardText">
        
-        <p class="title">Trap Drums by Sound Oracle &gt;</p>
+        <p className="title">Trap Drums by Sound Oracle &gt;</p>
       </div>
     </div>
-    <div class="card">
+    <div className="card">
       <img src={Box6} alt="Image 3"></img>
-      <div class="cardText">
+      <div className="cardText">
         
-        <p class="title">Lost & Found &gt;</p>
+        <p className="title">Lost & Found &gt;</p>
       </div>
     </div>
   </div>
@@ -164,31 +164,31 @@ const Section4 = () => {
 const Section5 = () => {
   return (
     <>
-    <div class="sectionContainer2">
-  <div class="sectionSubheading">
-    <h2 class="h2Hero">Develop your music making</h2>
+    <div className="sectionContainer2">
+  <div className="sectionSubheading">
+    <h2 className="h2Hero">Develop your music making</h2>
     
   </div>
-  <div class="imageContainer">
-    <div class="card">
+  <div className="imageContainer">
+    <div className="card">
       <img src={Box7} alt="Image 1"></img>
-      <div class="cardText">
+      <div className="cardText">
         
-        <p class="title">Learn the foundations of music &gt;</p>
+        <p className="title">Learn the foundations of music &gt;</p>
       </div>
     </div>
-    <div class="card">
+    <div className="card">
       <img src={Box1} alt="Image 2"></img>
-      <div class="cardText">
+      <div className="cardText">
        
-        <p class="title">Get started with Live &gt;</p>
+        <p className="title">Get started with Live &gt;</p>
       </div>
     </div>
-    <div class="card">
+    <div className="card">
       <img src={Box8} alt="Image 3"></img>
-      <div class="cardText">
+      <div className="cardText">
         
-        <p class="title">Experiment with tuning &gt;</p>
+        <p className="title">Experiment with tuning &gt;</p>
       </div>
     </div>
   </div>
@@ -202,8 +202,8 @@ const Section5 = () => {
 const Section6 = () => {
   return (
     <>
-    <div class="footerDivider">
-      <ul class="subNavLinks2">
+    <div className="footerDivider">
+      <ul className="subNavLinks2">
         <li className="more">More: </li>
         <li>All posts</li>
         <li>Artists</li>

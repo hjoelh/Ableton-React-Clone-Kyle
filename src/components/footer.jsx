@@ -93,3 +93,4 @@ const Footer = () => {
 };
 
 export default Footer;
+console.log('Footer component loaded');
