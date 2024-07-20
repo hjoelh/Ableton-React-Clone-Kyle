@@ -8,9 +8,9 @@
   color: white;
   padding: 8.33333vw;
   width: 100%;
-  height: 95vh; /* vh for height relative to the viewport */
+  height: 95vh; 
   max-height: fit-content;
-  position: relative; /* Change from absolute to relative */
+  position: relative; 
 }
 
 .h1Hero {
@@ -142,7 +142,7 @@ padding-top: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* Centering text vertically */
+  justify-content: center; 
   background-color: #EEEEEE;
   height: 150px;
   width: 100%;
@@ -158,7 +158,7 @@ padding-top: 5px;
   padding: 0;
   padding-top: 75px;
   display: flex;
-  justify-content: center; /* Centering text horizontally */
+  justify-content: center; 
 }
 
 .subNavLinks2 li {

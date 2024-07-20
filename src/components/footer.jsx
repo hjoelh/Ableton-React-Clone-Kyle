@@ -4,7 +4,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <div className="footer-main">
       <div className="footer-sections">
         <div className="ableton-section">
           <h2 className="ableton-section-h2">Ableton</h2>
@@ -88,7 +88,7 @@ const Footer = () => {
       </div>
       </div>
       
-    </footer>
+    </div>
   );
 };
 
