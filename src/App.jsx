@@ -3,6 +3,8 @@ import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
 import Hero from './components/Hero.jsx';
 import "./App.css"
+import './components/Hero.css'
+import './components/Footer.css'
 
 
 
