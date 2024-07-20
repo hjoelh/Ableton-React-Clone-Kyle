@@ -6,6 +6,7 @@
 
 body {
   font-family: "futura";
+  font-weight: bold;
 }
 
 .navbar {
@@ -61,12 +62,12 @@ body {
   margin-left: 0px;
   border-radius: 5px;
   font-size: 1rem;
-  transition: background-color 0.3s;
   align-items: flex-end;
 }
 
 .nav-buttons .try-btn {
   color: #0000FF;
+  font-size: 1.2rem;
   
 }
 
