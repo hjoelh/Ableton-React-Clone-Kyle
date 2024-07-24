@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import Box1 from '../assets/Box1.jpg'
 import Box2 from '../assets/Box2.jpg'
 import Box3 from '../assets/Box3.jpg'
