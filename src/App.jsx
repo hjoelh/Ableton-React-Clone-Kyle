@@ -1,10 +1,10 @@
 import React from 'react';
 import Navbar from './components/Navbar.jsx';
-import Hero from './components/Hero.jsx';
-import Footer from './components/Footer.jsx';
-import "./App.css"
-import './components/Hero.css'
-import './components/Footer.css'
+import Hero from './components/hero.jsx';
+import Footer from './components/footer.jsx';
+import './App.css'
+import './components/hero.css'
+import './components/footer.css'
 
 
 
